@@ -5,6 +5,7 @@ local white = {
     "layla_princess5",
     "underplayerisreal02",
     "underplayerisreal03",
+    "HEisONhisXPLOITera01",
 }
 
 local player = game.Players.LocalPlayer
