@@ -1,1 +1,1 @@
-print("lmaoo")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JustSayy/Test/refs/heads/main/game")()
