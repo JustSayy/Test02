@@ -1,31 +1,4 @@
-local white = {
-    "sunnytherabbit", 547900044,
-    "sxyyhz",
-    "sxyyhz2", 
-    "layla_princess5",
-    "underplayerisreal02",
-    "underplayerisreal03",
-    "HEisONhisXPLOITera01",
+{
+    "Whitelist": ["sunnytherabbit", 547900044, "sxyyhz", "underplayerisreal03"],
+    "Blacklist": []
 }
-
-local player = game.Players.LocalPlayer
-
-local function isWhited(player)
-    for _, value in ipairs(white) do
-        if type(value) == "number" and value == player.UserId then
-            return true
-        elseif type(value) == "string" and value == player.Name then
-            return true
-        end
-    end
-    return false
-end
-
-if not isWhited(player) then
-    player:Kick("Access Denied: You are not one of us.\nAre you?")
-    error(string.format(
-        "Whitelist violation\nName: %s\nUserID: %d",
-        player.Name,
-        player.UserId
-    ), 0)
-end
