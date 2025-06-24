@@ -1,4 +1,12 @@
-{
-    "Whitelist": ["sunnytherabbit", 547900044, "sxyyhz", "underplayerisreal03"],
-    "Blacklist": []
+return {
+    Whitelist = {
+        "sunnytherabbit", 
+        547900044,
+        "sxyyhz",
+        "sxyyhz2"
+    },
+    Blacklist = {
+        "hacker1",
+        666666666
+    }
 }
