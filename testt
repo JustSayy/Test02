@@ -2,7 +2,9 @@ return {
     Whitelist = {
         "sunnytherabbit", 
         "underplayerisreal03",
+        "underplayerisreal04",
         "sxyyhz",
+        "sxyyhz2",
         "SoloLevelingMax999"
     },
     Blacklist = {
